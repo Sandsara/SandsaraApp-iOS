@@ -1,0 +1,85 @@
+/* 
+  Localize.strings
+  Sandsara
+
+  Created by Tín Phan on 14/11/2020.
+  
+*/
+
+"recommended_playlists" = "Recommended Playlists";
+"recommended_tracks" = "Recommended Tracks";
+"no_sandsara_detected" = "No Sandsara detected.";
+"author_by" = "By %@";
+"tracks" = "Tracks";
+"playlists" = "Playlists";
+"play" = "Play";
+"favorite" = "Favorite";
+"favorited" = "Favorited";
+"add_to_playlist" = "Add to Playlist";
+"create_playlist" = "Create new playlist";
+"ok" = "Ok";
+"cancel" = "Cancel";
+"duplicate_found" = "Duplicate track found";
+"add_anyway" = "Add anyway";
+"sandsara_detected" = "Sandsara detected.";
+
+"settings" = "Settings";
+"basic_setting" = "Basic Settings";
+"speed" = "Ball Speed";
+"brightness" = "Brightness";
+"lightmode" = "Light mode";
+"rotate" = "Rotate";
+"cycle" = "Cycle";
+"static" = "Static";
+"presets" = "Presets";
+"light_cycle_speed" = "Light Cycle Speed";
+"advance_setting" = "Advanced Settings";
+"website" = "Sandsara’s Website";
+"help" = "Help";
+"about" = "About this Sandsara";
+"firmware_version" = "Current Firmware: %@";
+"device_name" = "Name: %@";
+"change_name" = "Change Name";
+"update_firmware" = "Update Firmware";
+"factory_reset" = "Factory Reset";
+"alert_delete_playlist" = "Do you want to delete this playlist ?";
+"empty_list" = "No track here !!!";
+
+"color_pallete" = "Color Pallete";
+"color_temp" = "Color Temperature";
+"custom_color" = "Custom Color";
+
+"flip_mode" = "Flip Direction";
+"sleep" = "Sleep";
+"restart" = "Restart";
+"download" = "Download to Library";
+"downloaded" = "Downloaded to Library";
+"x_track_need_to_be_synced" = "%d Tracks need to be synced";
+"x_min_esimated" = "%@ min estimated";
+"sync_all" = "Sync all";
+
+"sync_to_board" = "Sync to Sandsara";
+"add_to_queue" = "Add to Queue";
+"downloading" = "Downloading...";
+"next_by" = "Queue:";
+"syncing" = "Syncing...";
+"firmware_alert" = "Firmware Update Available v %@";
+"firmware_downloading" = "Downloading Firmware v %@";
+"firmware_syncing" = "Syncing Firmware v %@";
+"firmware_is_ready" = "Firmware v %@ is Ready";
+"firmware_update_now" = "Update Firmware Now";
+"firmware_notice" = "This process takes about 10 minutes and can’t be cancelled. Please, don’t disconnect your SANDSARA.";
+"sync_noti" = "Syncing tracks. Playback will resume soon.";
+"now_playing" = "Now Playing";
+"connect_to_sandsara" = "Connect to Sandsara";
+"connect_desc" = "Make sure your Sandsara is closeby and plugged to the wall.";
+"connect_now" = "Connect Now";
+"choose_device" = "Choose your device";
+"connecting" = "Connecting";
+"connect_new" = "Connect To a Different Sandsara";
+"updating_version" = "Updating Firmware v %@";
+"updating" = "Updating...";
+"no_result" = "No Results";
+"no_result_desc" = "Ooops, we couldn’t find any Playlists that match your search terms, please try another one.";
+"sandsara_calibrating" = "Sandsara is calibrating";
+"sandsara_sleep" = "Sandsara is asleep";

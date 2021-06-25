@@ -1,0 +1,60 @@
+
+/* Class = "UITabBarItem"; title = "Library"; ObjectID = "3ns-do-icY"; */
+"3ns-do-icY.title" = "Library";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "69R-86-lPt"; */
+"69R-86-lPt.title" = "Item";
+
+/* Class = "UILabel"; text = "Song Title"; ObjectID = "AR4-x6-CjY"; */
+"AR4-x6-CjY.text" = "Song Title";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "HPo-2r-f4t"; */
+"HPo-2r-f4t.title" = "Home";
+
+/* Class = "UILabel"; text = "Now Playing"; ObjectID = "HYL-Nr-p34"; */
+"HYL-Nr-p34.text" = "Now Playing";
+
+/* Class = "UINavigationItem"; title = "Setting"; ObjectID = "KZc-Da-Fku"; */
+"KZc-Da-Fku.title" = "Setting";
+
+/* Class = "UITabBarItem"; title = "Setting"; ObjectID = "L0V-kN-dHa"; */
+"L0V-kN-dHa.title" = "Setting";
+
+/* Class = "UINavigationItem"; title = "Library"; ObjectID = "MPN-BL-zN0"; */
+"MPN-BL-zN0.title" = "Library";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "N9K-ds-Zxq"; */
+"N9K-ds-Zxq.text" = "Author";
+
+/* Class = "UIButton"; normalTitle = "PLAY"; ObjectID = "Qej-Te-8Oc"; */
+"Qej-Te-8Oc.normalTitle" = "PLAY";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UnX-H0-Lj7"; */
+"UnX-H0-Lj7.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VK7-VD-ffc"; */
+"VK7-VD-ffc.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ws6-Zc-MFm"; */
+"Ws6-Zc-MFm.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Song Title"; ObjectID = "a0m-Kn-Kg6"; */
+"a0m-Kn-Kg6.text" = "Song Title";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "fpc-cO-R4T"; */
+"fpc-cO-R4T.text" = "Author";
+
+/* Class = "UIButton"; normalTitle = "ADD TO PLAYLIST"; ObjectID = "iMa-Fx-t70"; */
+"iMa-Fx-t70.normalTitle" = "ADD TO PLAYLIST";
+
+/* Class = "UILabel"; text = "Song Title"; ObjectID = "lzZ-qR-IUM"; */
+"lzZ-qR-IUM.text" = "Song Title";
+
+/* Class = "UIButton"; normalTitle = "FAVORITE"; ObjectID = "vWJ-Pq-yXc"; */
+"vWJ-Pq-yXc.normalTitle" = "FAVORITE";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "yCA-eV-KYl"; */
+"yCA-eV-KYl.text" = "Author";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "yMV-N0-90i"; */
+"yMV-N0-90i.title" = "Home";

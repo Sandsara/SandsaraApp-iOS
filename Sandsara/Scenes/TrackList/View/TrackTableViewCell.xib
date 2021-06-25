@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="141" id="GOj-9J-cYk" customClass="TrackTableViewCell" customModule="Sandsara" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GOj-9J-cYk" id="flQ-o7-x61">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="141"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sA7-SV-nM9">
+                        <rect key="frame" x="16" y="10" width="76" height="76"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="EDj-0L-Jcp"/>
+                            <constraint firstAttribute="height" constant="76" id="ySb-bO-kZV"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="726-3v-ARn">
+                        <rect key="frame" x="113" y="23" width="291" height="50.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hw-m7-e4T">
+                                <rect key="frame" x="0.0" y="0.0" width="291" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rR-h7-h65">
+                                <rect key="frame" x="0.0" y="24.5" width="291" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kxz-Gf-OeQ">
+                                <rect key="frame" x="0.0" y="49" width="291" height="2.5"/>
+                                <color key="progressTintColor" name="primary"/>
+                            </progressView>
+                        </subviews>
+                    </stackView>
+                    <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdL-uX-j9F">
+                        <rect key="frame" x="414" y="34" width="0.0" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" id="hXY-7D-H8H"/>
+                        </constraints>
+                        <state key="normal" image="sync"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sA7-SV-nM9" secondAttribute="bottom" constant="10" id="7Lb-9A-CNr"/>
+                    <constraint firstItem="sA7-SV-nM9" firstAttribute="top" secondItem="flQ-o7-x61" secondAttribute="top" constant="10" id="8pi-Qu-XlY"/>
+                    <constraint firstAttribute="trailing" secondItem="LdL-uX-j9F" secondAttribute="trailing" id="Rbs-37-2nZ"/>
+                    <constraint firstItem="sA7-SV-nM9" firstAttribute="leading" secondItem="flQ-o7-x61" secondAttribute="leading" constant="16" id="bUR-5L-Okz"/>
+                    <constraint firstItem="LdL-uX-j9F" firstAttribute="leading" secondItem="726-3v-ARn" secondAttribute="trailing" constant="10" id="dSO-Rr-mKg"/>
+                    <constraint firstItem="LdL-uX-j9F" firstAttribute="centerY" secondItem="726-3v-ARn" secondAttribute="centerY" id="eWa-fw-QWz"/>
+                    <constraint firstItem="726-3v-ARn" firstAttribute="leading" secondItem="sA7-SV-nM9" secondAttribute="trailing" constant="21" id="fWS-Zf-KBQ"/>
+                    <constraint firstItem="726-3v-ARn" firstAttribute="centerY" secondItem="sA7-SV-nM9" secondAttribute="centerY" id="vg4-xs-utb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" name="background"/>
+            <connections>
+                <outlet property="authorLabel" destination="3rR-h7-h65" id="TFJ-zV-TCp"/>
+                <outlet property="progressView" destination="kxz-Gf-OeQ" id="PFF-on-8io"/>
+                <outlet property="syncBtn" destination="LdL-uX-j9F" id="cUn-Sd-Bxv"/>
+                <outlet property="syncBtnLeadingConstraint" destination="dSO-Rr-mKg" id="eaZ-O5-07x"/>
+                <outlet property="syncBtnTrailingConstraint" destination="Rbs-37-2nZ" id="Ttv-oH-i7H"/>
+                <outlet property="syncBtnWidthConstraint" destination="hXY-7D-H8H" id="H1T-Qr-pxh"/>
+                <outlet property="titleLabel" destination="8hw-m7-e4T" id="Is9-ho-TUW"/>
+                <outlet property="trackImageView" destination="sA7-SV-nM9" id="Jd1-tF-gSC"/>
+            </connections>
+            <point key="canvasLocation" x="-189.85507246376812" y="125.55803571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sync" width="28" height="28"/>
+        <namedColor name="background">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primary">
+            <color red="0.9100000262260437" green="0.9100000262260437" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

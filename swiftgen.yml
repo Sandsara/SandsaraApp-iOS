@@ -1,0 +1,16 @@
+strings:
+  inputs: Sandsara/Resources/en.lproj/Localizeable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Sandsara/Generated/Strings.swift
+xcassets:
+  inputs:
+    - Sandsara/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: Sandsara/Generated/Assets.swift
+fonts:
+  inputs: Sandsara/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: Sandsara/Generated/Fonts.swift
